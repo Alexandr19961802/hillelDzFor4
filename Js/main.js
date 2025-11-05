@@ -1,4 +1,4 @@
-let n=Number(prompt())
+let n=Number(prompt("Введите число"))
 for(let i=1;i<n;i++){
     let isPrime=true
     if(i<=1){
@@ -12,9 +12,10 @@ for(let i=1;i<n;i++){
         }
     }
     if(isPrime){
-        console.log(i+"Простое")
+        console.log(i+" Простое")
 
     }
-    else{(console.log(i+"Не простое"))}
+    else{(console.log(i+" Не простое"))}
 }
+
 
